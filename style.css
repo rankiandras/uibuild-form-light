@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: inherit;
+  }
+  a{
+    text-decoration: none;
+  }
+  a img {
+    border: none;
+  }
+  
+  button,
+  a {
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button,
+  textarea,
+  select {
+    appearance: none !important;
+    border-radius: 0;
+  }
+  
+  /* --------------------- END OF CSS RESET -------------------------- */
+  
+  body {
+    background-color: #F7E4D4; 
+  }
+  
+  
+  div {
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #467745;
+    margin-top: 15%;
+    margin-bottom: 20px;
+  }
+  
+  div input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 480px;
+    width: 100%;
+    height: 64px;
+    color:#467745;
+    background-color: white;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  
+  label {
+    color: #467745;
+  }
+  
+  form input {
+    width: 20px;
+    height: 20px;
+    transform: translate(-9px, 4px);
+  }
+  ::placeholder {
+    color: #467745;
+    font-size: 16px;
+    opacity: 0.6;
+  }
+  
+  textarea {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 480px;
+    width: 100%;
+    height: 120px;
+    color: #467745;
+    background-color: white;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-left: 20px;
+  
+  }
+  
+  div div {
+    text-align: center;
+  }
+  
+  button {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 21px;
+    letter-spacing: 0.2em;
+    max-width: 280px;
+    width: 100%;
+    height: 80px;
+    text-transform: uppercase;
+    background-color: #467745;
+    color: #F7E4D4;
+    border-radius: 50px;
+    margin-top: 10px;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  @media screen and (max-width: 520px) {
+    div {
+      text-align: left;
+    }
+  
+    h1 {
+      font-size: 36px;
+      margin-left: 20px;
+      margin-right: 20px;    
+    }
+  
+    div input {
+      width: 100%-40px;
+    }
+  
+    form {
+      text-align: left;
+    }
+  
+    form input {
+      width: 100%-40px;
+      transform: translate(0px, 4px);
+      
+    }
+    
+    textarea {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
